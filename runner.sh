@@ -89,7 +89,7 @@ run_single_test(){
     fi
 
     #echo "$test_file"
-    $testcafe $browser $test_file --test-scheduling --reporter spec 
+    node_modules/.bin/testcafe "@browserstack/browserstack:chrome@79.0:OS X Big Sur" src/test/suites/e2e/E2ETest.js --test-scheduling --reporter spec
 
 }
 
