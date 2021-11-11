@@ -15,7 +15,7 @@ testcafe="./node_modules/.bin/testcafe"
 
 
 # set the path to the local binary
-local_binary="resources/local/BrowserStackLocal"
+local_binary="resources/local/BrowserStackLocalLinux"
 
 
 
